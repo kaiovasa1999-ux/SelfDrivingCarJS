@@ -63,5 +63,7 @@ class Car{
       this.height,
     )
     ctx.fill();
+
+    ctx.resore();
   }
 }
