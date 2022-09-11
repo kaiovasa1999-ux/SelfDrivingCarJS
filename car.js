@@ -15,6 +15,10 @@ class Car{
   }
 
   update(){
+    this.#move();
+  }
+  
+  #move(){
     if(this.contrs.foward){
       this.speed +=this.acceleration;
     }
