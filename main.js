@@ -2,7 +2,7 @@ const canvas=document.getElementById("myCanvas");
 canvas.width=300;
 
 const ctx =canvas.getContext("2d");
-const road = new Road(canvas.width/2,canvas.width);
+const road = new Road(canvas.width/2,canvas.width * 0.95);
 const car = new Car(150,100,30,50);
 
 animate()
